@@ -29,8 +29,6 @@ elif ans1 == 'N' and ans2 == 'Y' and ans3 == 'Y':
     print("I would recommend {}".format(dramed))
 elif ans1 == 'N' and ans2 == 'Y' and ans3 == 'N':
     print("I would recommend {}".format(drama))
-elif ans1 == 'N' and ans2 == 'Y' and ans3 == 'N':
-    print("I would recommend {}".format(drama))
 elif ans1 == 'N' and ans2 == 'N' and ans3 == 'Y':
     print("I would recommend {}".format(comedy))
 elif ans1 == 'N' and ans2 == 'N' and ans3 == 'N':
