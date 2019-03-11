@@ -19,13 +19,13 @@ def tally_ballots(ballots, tally):
             tally[bname] += 1
         else:
             tally[bname] = 1
-#
-if __name__ == '__main__':
-    def pr_fn(s):
-        print(f"Printer function says '{s}'")
-    def pr(fn, s):
-        fn(s)
-    pr(pr_fn, 'what is this madness')
-else:
+# #
+# if __name__ == '__main__':
+#     def pr_fn(s):
+#         print(f"Printer function says '{s}'")
+#     def pr(fn, s):
+#         fn(s)
+#     pr(pr_fn, 'what is this madness')
+# else:
     tally_ballots(ballots, tally)
     print(tally)
