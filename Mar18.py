@@ -136,7 +136,8 @@ for article in ar_list:
 
 def read_article(ar_list):
     item = random.choice(ar_list)
-    item['views'] += 1
+    view_val = item['views']
+    item['views'] += item.get(view_val, 0) + 1
 
 def display_views(ar_list):
     for article in ar_list:
@@ -144,6 +145,22 @@ def display_views(ar_list):
         views = article['views']
         print('{}\n read {} times'.format(title, views))
 
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
+read_article(ar_list)
 read_article(ar_list)
 read_article(ar_list)
 read_article(ar_list)
